@@ -1,0 +1,8 @@
+#!/bin/bash
+
+module load singularity/3.5.3
+
+VERSION=1.10.0
+DIRECTORY=/opt/packages/samtools/$VERSION
+LANG=C
+singularity exec -B /pylon5 $DIRECTORY/singularity-trinity-$VERSION.img samtools "$@"
