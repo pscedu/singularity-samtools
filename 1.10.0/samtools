@@ -3,6 +3,9 @@
 module load singularity/3.5.3
 
 VERSION=1.10.0
+PACKAGE=samtools
+TOOL=$PACKAGE
 DIRECTORY=/opt/packages/samtools/$VERSION
 LANG=C
-singularity exec -B /pylon5 $DIRECTORY/singularity-samtools-$VERSION.simg samtools "$@"
+
+singularity exec -B /pylon5 $DIRECTORY/singularity-$PACKAGE-$VERSION.simg $TOOL "$@"
