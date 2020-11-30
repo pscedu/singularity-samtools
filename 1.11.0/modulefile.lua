@@ -32,6 +32,10 @@ Documentation
 -------------
 http://www.htslib.org/doc/#manual-pages
 
+For help, type
+
+> samtools --help
+
 Repository
 ----------
 https://github.com/samtools/samtools
