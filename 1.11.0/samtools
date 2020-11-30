@@ -8,6 +8,5 @@ VERSION=1.11.0
 PACKAGE=samtools
 TOOL=$PACKAGE
 DIRECTORY=/opt/packages/$PACKAGE/$VERSION
-LANG=C
 
 singularity exec -B /ocean $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
