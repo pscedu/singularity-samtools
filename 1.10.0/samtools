@@ -10,4 +10,4 @@ TOOL=$PACKAGE
 DIRECTORY=/opt/packages/samtools/$VERSION
 LANG=C
 
-singularity exec -B /pylon5 $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
+singularity exec -B /ocean $DIRECTORY/singularity-$PACKAGE-$VERSION.sif $TOOL "$@"
