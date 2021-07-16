@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-samtools)
 
 # singularity-samtools
-Singularity recipe for [samtools](https://github.com/sandialabs/samtools).
+Singularity recipe for [samtools](https://www.htslib.org/).
 
 ## Installing the container on Bridges 2
 Copy the
