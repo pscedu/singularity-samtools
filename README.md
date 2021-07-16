@@ -13,7 +13,8 @@ Copy the
 * `SIF` file
 * and the `samtools` script
 
-to `/opt/packages/samtools/1.10.0
+to `/opt/packages/samtools/1.10.0`
+
 Copy the file `modulefile.lua` to `/opt/modulefiles/samtools` as `1.10.0.lua`.
 
 ## Building the image using the recipe
