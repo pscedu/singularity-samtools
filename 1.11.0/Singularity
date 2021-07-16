@@ -8,7 +8,3 @@ From: alpine:edge
     REPOSITORY https://github.com/pscedu/singularity-samtools
     COPYRIGHT Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.
     VERSION 1.11.0
-
-%post
-    apk update
-    apk add asciinema
