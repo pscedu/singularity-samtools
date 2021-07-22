@@ -11,7 +11,7 @@ Singularity recipe for [samtools](https://www.htslib.org/).
 Copy the
 
 * `SIF` file
-* and the `samtools` script
+* and the `ace2sam`, `blast2sam.pl` `bowtie2sam.pl`, `export2sam.pl`, `fasta-sanitize.pl`, `generate_binaries.sh`, `interpolate_sam.pl`, `maq2sam-long`, `maq2sam-short`, `md5fa`, `md5sum-lite`, `novo2sam.pl`, `plot-ampliconstats`, `plot-bamstats`, `psl2sam.pl`, `sam2vcf.pl`, `samtools`, `samtools.pl`, `seq_cache_populate.pl`, `soap2sam.pl`, `wgsim`, `wgsim_eval.pl` and `zoom2sam.pl` scripts
 
 to `/opt/packages/samtools/1.10.0`
 
