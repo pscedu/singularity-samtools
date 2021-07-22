@@ -13,9 +13,9 @@ Copy the
 * `SIF` file
 * and the `ace2sam`, `blast2sam.pl` `bowtie2sam.pl`, `export2sam.pl`, `fasta-sanitize.pl`, `generate_binaries.sh`, `interpolate_sam.pl`, `maq2sam-long`, `maq2sam-short`, `md5fa`, `md5sum-lite`, `novo2sam.pl`, `plot-ampliconstats`, `plot-bamstats`, `psl2sam.pl`, `sam2vcf.pl`, `samtools`, `samtools.pl`, `seq_cache_populate.pl`, `soap2sam.pl`, `wgsim`, `wgsim_eval.pl` and `zoom2sam.pl` scripts
 
-to `/opt/packages/samtools/1.10.0`
+to `/opt/packages/samtools/1.13.0`
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/samtools` as `1.10.0.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/samtools` as `1.13.0.lua`.
 
 ## Building the image using the recipe
 ### To build the image locally
