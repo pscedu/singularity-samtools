@@ -2,7 +2,7 @@
 
 VERSION=1.11.0
 PACKAGE=samtools
-TOOL=samtools
+TOOL=seq_cache_populate.pl
 DIRECTORY=$(dirname $0)
 
 PERSISTENT_FILE_STORAGE=/ocean

@@ -2,7 +2,7 @@
 
 VERSION=1.11.0
 PACKAGE=samtools
-TOOL=samtools
+TOOL=bowtie2sam.pl
 DIRECTORY=$(dirname $0)
 
 PERSISTENT_FILE_STORAGE=/ocean

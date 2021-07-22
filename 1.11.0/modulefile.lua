@@ -1,5 +1,5 @@
 --
--- Samtools 1.11.0 modulefile
+-- samtools 1.11.0 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Biological Sciences"
@@ -13,12 +13,7 @@ whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: Samtools is a suite of programs for interacting with high-throughput sequencing data.")
 
 help([[
-Samtools 1.11.0
---------------
-
-Description
------------
-Samtools is a suite of programs for interacting with high-throughput sequencing data.
+samtools is a suite of programs for interacting with high-throughput sequencing data.
 
 To load the module type
 
@@ -36,13 +31,29 @@ For help, type
 
 > samtools --help
 
-Repository
-----------
-https://github.com/samtools/samtools
-
 Tools included in this module are
 
+* ace2sam
+* md5fa
 * samtools
+* blast2sam.pl
+* md5sum-lite
+* samtools.pl
+* bowtie2sam.pl
+* novo2sam.pl
+* seq_cache_populate.pl
+* export2sam.pl
+* plot-ampliconstats
+* soap2sam.pl
+* interpolate_sam.pl
+* plot-bamstats
+* wgsim
+* maq2sam-long
+* psl2sam.pl
+* wgsim_eval.pl
+* maq2sam-short
+* sam2vcf.pl
+* zoom2sam.pl
 ]])
 
 local package = "samtools"

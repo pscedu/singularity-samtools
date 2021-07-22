@@ -2,7 +2,7 @@
 
 VERSION=1.11.0
 PACKAGE=samtools
-TOOL=samtools
+TOOL=zoom2sam.pl
 DIRECTORY=$(dirname $0)
 
 PERSISTENT_FILE_STORAGE=/ocean
