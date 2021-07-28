@@ -3,7 +3,7 @@
 # Copyright © 2021 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-IMAGE=singularity-samtools-1.11.0.sif
+IMAGE=singularity-samtools-1.13.0.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
